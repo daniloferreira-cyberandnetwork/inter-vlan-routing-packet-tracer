@@ -83,6 +83,30 @@ end
 
 🧪 Testes Realizados
 
+📸 Evidências do Projeto
+
+🖧 Topologia da Rede
+prints/topologia
+
+🔀 Porta Trunk no Switch
+prints/switch
+
+🌐 Interfaces do Router
+prints/router
+
+🧪 Testes de Conectividade
+VLAN 10 → Gateway
+prints/testes/ping-vlan10.png
+
+VLAN 20 → Gateway
+prints/testes/ping-vlan20.png
+
+Comunicação entre VLANs
+prints/testes
+✅ RESULTADO
+
+A comunicação entre as VLANs foi estabelecida com sucesso através do Router-on-a-Stick, validando a configuração do ambiente.
+
 Ping dos PCs para o gateway da própria VLAN ✅
 
 Ping entre VLANs (VLAN 10 ↔ VLAN 20) ✅
