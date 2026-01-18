@@ -50,7 +50,7 @@ configure terminal
 vlan 10
 name ADMIN
 vlan 20
-name TI
+name FINANCEIRO
 
 interface fastEthernet 0/1
 switchport mode trunk
@@ -86,22 +86,24 @@ end
 📸 Evidências do Projeto
 
 🖧 Topologia da Rede
-
+prints/topologia/TOPOLOGIA.png
 
 🔀 Porta Trunk no Switch
-
+prints/switch
 
 🌐 Interfaces do Router
-
+prints/router
 
 🧪 Testes de Conectividade
 VLAN 10 → Gateway
-
+prints/testes/TESTE PING 192.168.10.png
 
 VLAN 20 → Gateway
-
+prints/testes/TESTE PING 192.168.20.png
 
 Comunicação entre VLANs
+prints/testes/PING 192.168.20 - 192.168.10.png
+prints/testes/ping 192.168.10 - 192.168.20.png
 
 ✅ RESULTADO
 
